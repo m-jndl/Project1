@@ -3,11 +3,13 @@
 }
 
 .row {
+
     font-family: comic-sans;
     color: black;
     word-wrap: break-word;
-    text-align: center;
-    margin: 0px;
+    width: 100%;
+    height:60%;
+    margin:0px;
 }
 
 h1 {
@@ -15,26 +17,31 @@ h1 {
     text-align: center;
 }
 
-div>div {
+section {
     border: 2px solid black;
     background-color: grey;
-    width: 100%;
+    width:95%;
     height: 50%;
-    margin-right: 10px auto;
-    margin-left: 10px auto;
-    margin-top: 0px;
+   margin:auto ;
+   margin-top: 20px;
 }
 
+
+p{
+
+	padding:10px;
+}
 h2 {
     border: 2px solid black;
     background-color: red;
-    width: 30%;
+    width: 40%;
     height: 30%;
     position: relative;
-    left: 70%;
+    left: 60%;
     margin: 0px;
     border-right: 0px;
     border-top: 0px;
+    text-align: center;
 }
 
 @media (min-width: 992px) {
@@ -51,7 +58,6 @@ h2 {
     .col-lg-11,
     .col-lg-12 {
         float: left;
-        background-color: grey;
     }
     .col-lg-1 {
         width: 8.33%;
@@ -105,7 +111,6 @@ h2 {
     .col-md-11,
     .col-md-12 {
         float: left;
-        background-color: grey;
     }
     .col-md-1 {
         width: 8.33%;
@@ -143,9 +148,14 @@ h2 {
     .col-md-12 {
         width: 100%;
     }
+    	#section3{
+	width:97.5%;
+	heiight:60%;
+}
 }
 
 @media (max-width: 767px) {
+
     .col-sm-1,
     .col-sm-2,
     .col-sm-3,
